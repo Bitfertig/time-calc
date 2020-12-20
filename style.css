@@ -65,6 +65,10 @@ main #gears .to {
 }
 main #out .out {
     cursor: pointer;
+    opacity: 1;
+}
+main #out .out:hover {
+    opacity: 0.8;
 }
 main #out svg,
 main #out span {

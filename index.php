@@ -6,7 +6,7 @@
     <title>Time Calc</title>
     <meta name="keywords" content="time calc, time calculator, hours, minutes, calculator, calculate">
     <meta name="description" content="Time Calc helps calculating hours and minutes.">
-    <link rel="shortcut icon" href="logo.svg">
+    <link rel="shortcut icon" href="timecalc-logo.svg">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>

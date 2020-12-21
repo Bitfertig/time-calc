@@ -33,7 +33,7 @@
             <span class="to">&mdash;</span>
             <span style="display: inline-block;">
                 End<br>
-                <input type="time" id="end" value="16:00">
+                <input type="time" id="end" value="16:30">
             </span>
             <span>&nbsp; | &nbsp;</span>
             <span style="display: inline-block;">

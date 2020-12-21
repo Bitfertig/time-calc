@@ -55,9 +55,10 @@ function calc(e) {
     //console.log(time_m);
 
     let decimal = time_m / 60;
-    let hours = (decimal < 0 ? '-' : '') + Math.abs(Number(time_m/60)>>>0) 
+    let hours = (decimal < 0 ? '-' : '') 
+        + Math.abs(Number(time_m/60)>>>0)
         + ':' 
-        + Math.abs(Number(time_m%60));
+        + ((Math.abs(Number(time_m%60))+'').padStart(2, '0'));
     //console.log('Decimals:', decimal);
     //console.log('24-hours:', hours);
 
